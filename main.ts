@@ -18,3 +18,8 @@ controller.moveSprite(BOSSCAT, 100, 100)
 info.setLife(9)
 tiles.setTilemap(tilemap`level1`)
 scene.cameraFollowSprite(BOSSCAT)
+for (let index = 0; index < 2; index++) {
+    music.playMelody("C E F E D E D C ", 250)
+    music.playMelody("C A A B B A A G ", 251)
+    music.playMelody("E F E F D D E F ", 251)
+}
